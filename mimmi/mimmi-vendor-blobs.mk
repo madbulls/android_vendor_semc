@@ -22,8 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/mimmi/proprietary/etc/01_qcomm_omx.cfg:system/etc/01_qcomm_omx.cfg \
     vendor/semc/mimmi/proprietary/bin/nvimport:system/bin/nvimport \
     vendor/semc/mimmi/proprietary/lib/libZiEngine.so:system/lib/libZiEngine.so \
-    vendor/semc/mimmi/proprietary/usr/keylayout/mimmi_keypad.kl:system/usr/keylayout/mimmi_keypad.kl \
-    vendor/semc/mimmi/proprietary/usr/keychars/mimmi_keypad.kcm.bin:system/usr/keychars/mimmi_keypad.kcm.bin \
     vendor/semc/mimmi/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/semc/mimmi/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/semc/mimmi/proprietary/bin/qmuxd:system/bin/qmuxd \
@@ -75,6 +73,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/mimmi/proprietary/lib/libanthal.so:system/lib/libanthal.so \
     vendor/semc/mimmi/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/semc/mimmi/proprietary/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
+    vendor/semc/mimmi/proprietary/lib/hw/lights.default.so:system/lib/hw/lights.mimmi.so \
     vendor/semc/mimmi/proprietary/lib/hw/hal_seport.default.so:system/lib/hw/hal_seport.default.so \
     vendor/semc/mimmi/proprietary/lib/libsystemconnector/libuinputdevicejni.so:system/lib/libsystemconnector/libuinputdevicejni.so \
     vendor/semc/mimmi/proprietary/lib/libsystemconnector_hal_jni.so:system/lib/libsystemconnector_hal_jni.so \
